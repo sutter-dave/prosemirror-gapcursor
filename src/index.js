@@ -1,6 +1,6 @@
-import {keydownHandler} from "/prosemirror/dist/prosemirror-keymap.es.js"
-import {TextSelection, NodeSelection, Plugin} from "/prosemirror/dist/prosemirror-state.es.js"
-import {Decoration, DecorationSet} from "/prosemirror/dist/prosemirror-view.es.js"
+import {keydownHandler} from "/prosemirror/devimports/prosemirror-keymap.es.js"
+import {TextSelection, NodeSelection, Plugin} from "/prosemirror/devimports/prosemirror-state.es.js"
+import {Decoration, DecorationSet} from "/prosemirror/devimports/prosemirror-view.es.js"
 
 import {GapCursor} from "./gapcursor.js"
 
